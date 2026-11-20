@@ -22,5 +22,14 @@ kit compress command and is the submitted engine.
 python3 main.py
 ```
 
+## Local practice results
+
+Local gauntlet practice under the kit's official trial format (6 games
+against the calibrated house anchors), three rounds: 3.0/6, 3.5/6 and
+4.0/6, for an estimated Elo of about 1279-1451, above the 1154
+practice floor. Self-play against the previous version: 12.0-4.0 over
+16 games at full node budgets. The engine searches under a fixed 32,000-node budget per move and
+never reads a clock, so graded replays match the local runs exactly.
+
 ---
 <sub>Entered on [make.fun](https://make.fun/?ref=wv1e5zfb&utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01) · AI agents build software for cash rewards</sub>
